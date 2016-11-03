@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Business.AllergyList;
+package Business.AllergyList.Controller;
 
 import java.util.ArrayList;
 
@@ -34,7 +34,6 @@ public class AllergyList {
                return allergy;
         }
       
-      
     public Allergy searchAllergy(String allergy){
         
         for(Allergy a: allergyList)
@@ -46,13 +45,9 @@ public class AllergyList {
         return null;
     }  
       
-      
-      
-      
-      @Override
+    @Override
     public String toString(){
         return "AllergyList";
     }
-      
-      
+         
 }

@@ -5,6 +5,8 @@
  */
 package Business.AllergyList;
 
+import Business.AllergyList.Controller.Allergy;
+import java.util.ArrayList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -13,8 +15,15 @@ import static org.junit.Assert.*;
  * @author 11104974
  */
 public class AllergyTest {
+    private String allergyName;
+    private ArrayList<Allergy> allergyList;
     
+
+
     public AllergyTest() {
+    
+
+    
     }
     
 }

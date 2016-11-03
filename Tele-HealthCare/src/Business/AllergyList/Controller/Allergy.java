@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Business.AllergyList;
+package Business.AllergyList.Controller;
 
 /**
  *
@@ -12,7 +12,7 @@ package Business.AllergyList;
 public class Allergy {
     private String allergyName;
     private int count =0;
-
+    
     public String getAllergyName() {
         return allergyName;
     }

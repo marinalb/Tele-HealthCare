@@ -5,8 +5,6 @@
  */
 package Business.TreatmentCatalog;
 
-import Business.AllergyList.*;
-
 /**
  *
  * @author Neelu

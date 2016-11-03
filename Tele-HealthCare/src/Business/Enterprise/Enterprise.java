@@ -4,8 +4,8 @@
  */
 package Business.Enterprise;
 
-import Business.AllergyList.Allergy;
-import Business.AllergyList.AllergyList;
+import Business.AllergyList.Controller.Allergy;
+import Business.AllergyList.Controller.AllergyList;
 import Business.DrugCatalog.Drug;
 import Business.DrugSupplier.Supplier;
 import Business.DrugSupplier.SupplierDirectory;

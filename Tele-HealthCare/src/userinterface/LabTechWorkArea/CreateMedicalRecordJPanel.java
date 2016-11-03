@@ -5,7 +5,7 @@
  */
 package userinterface.LabTechWorkArea;
 
-import Business.AllergyList.Allergy;
+import Business.AllergyList.Controller.Allergy;
 import Business.Employee.Employee;
 import Business.Enterprise.Enterprise;
 import Business.Organization.LabTechnicianOrganization;
