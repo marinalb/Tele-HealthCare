@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Business.AllergyList.Controller;
 
 import java.util.ArrayList;
 
 /**
- *
- * @author Neelu
+ * @author Conrado Werlang
+ * @author Gabriel Mattos
+ * @author Marina Barros
  */
 public class AllergyList {
     
@@ -27,12 +23,23 @@ public class AllergyList {
     public void setAllergyList(ArrayList<Allergy> allergyList) {
         this.allergyList = allergyList;
     }
+    
+    /** Adiciona uma alergia na lista
+ * @param allergy Alergia a ser adicionada
+ * @result a alergia foi adicionada na lista com sucesso
+ */
  
       public Allergy addAllergy(){   
-            Allergy allergy = new Allergy();
+            Allergy allergy = new Allergy("allergyName", 0);
             allergyList.add(allergy);
                return allergy;
         }
+
+    /** Procura uma alergia na lista
+ * @param allergy Alergia a ser buscada
+ * @result a alergia foi encontrada ou não, com sucesso
+ */
+
       
     public Allergy searchAllergy(String allergy){
         

@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Business.AllergyList.Model;
+import Business.AllergyList.Controller.Allergy;
+import java.util.List;
+
+
 
 /**
- *
- * @author 11203304
+ * @author Conrado Werlang
+ * @author Gabriel Mattos
+ * @author Marina Barros
  */
-public interface DAO {
+
+
     
+    public interface DAO {
+    
+	List <Allergy> buscarTodos() throws DAOException;
+   
 }
+
+    
+
